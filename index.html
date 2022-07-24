@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/main.css">
+    <script src="https://kit.fontawesome.com/302b4197ac.js" crossorigin="anonymous"></script>
+    <title>Card Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="slides">
+            <!-- Radios Buttons -->
+            <input type="radio" name="radio-bnt" id="radio1">
+            <input type="radio" name="radio-bnt" id="radio2">
+            <input type="radio" name="radio-bnt" id="radio3">
+
+            <div class="slider__content first">
+                <img class="quote" src="imagens/quoteDuplo.svg" alt="Quote">
+                <h2 class="username">Bruno Silva</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, est.</p>
+            </div>
+
+            <div class="slider__content">
+                <img class="quote" src="imagens/quoteDuplo.svg" alt="Quote">
+                <h2 class="username">Paulo Pereira</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, delectus!</p>
+            </div>
+
+            <div class="slider__content">
+                <img class="quote" src="imagens/quoteDuplo.svg" alt="Quote">
+                <h2 class="username">Davi Nogueira</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus optio praesentium illo vitae.</p>
+            </div>
+
+            <!-- Navigations auto-->
+            <div class="navigations-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <!-- Manual Navigations -->
+        <div class="manual-navigations">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+    <script src="estilo/main.js"></script>
+</body>
+</html>
